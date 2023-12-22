@@ -1,0 +1,369 @@
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+img {
+  width: 100%;
+  pointer-events: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: #222431;
+}
+
+/* Snow */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  place-items: center;
+  background: #f6f6f6;
+  width: min(1000px, 95%);
+  border-radius: 20px 18px 18px 20px;
+}
+
+
+main img {
+  border-radius: 18px 0 0 18px;
+  height: 76vh;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* dlfcknelcknedlcn */
+
+body{
+    /* background-image: url('/wallpaperflare.com_wallpaper\ \(4\).jpg') !important; */
+    /* background-size: 100% 100% !important;
+    background-position-y: 330px;
+    background-position-x: -350px; */
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family: 'Bai Jamjuree', sans-serif !important;
+}
+nav{
+  padding: 0 21px;
+}
+nav .a{
+  font-size: 1.1rem;
+}
+.CarouseL{
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: white;
+}
+.Outer{
+    text-align: center !important;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.9), 0 5px 5px 0 rgba(0, 0, 0, 0.24) !important;
+    margin: 5vh 0 0 320px !important;
+    font-size: 1.3rem !important;
+    background-color: white !important;
+    width: 829px !important;
+}
+#Outerr {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.Outer form{
+  padding: 10px;
+  margin: 10px; 
+}
+.FB, .TB {
+  flex: 1 1 0;
+
+}
+.SB {
+  flex: 100%;
+  order: 3;
+  margin: 0 100px;
+}
+.LLL{
+  width: 300px;
+}
+.L{
+  width: 300px;
+}
+.LL{
+  width: 300px ;
+}
+
+.Outer h1 {
+  font-size: 2.3rem !important;
+  color: black;
+  margin-bottom: 2.4rem;
+}
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.raise {
+  --color: #000000;
+  --hover: #28ae3c;
+}
+  .h1Head{
+    margin-bottom: 89px;
+  }
+  button {
+    color: var(--color) !important;
+    transition: 0.25s !important;
+  }
+  button:hover, button:focus {
+    border-color: var(--hover) !important;
+    color: #000000 !important
+  }
+  
+  button {
+    background: none !important;
+    border: 2px solid !important;
+    font: inherit !important;
+    line-height: 10px !important;
+    margin: 0.5em !important;
+    padding: 1em 20px !important;
+    border-radius:10px 1px !important;
+    margin-bottom: 50px !important;
+    font-weight: bolder !important;
+  }
+  
+  
+
+  .navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    margin-right: 599px;
+}
+
+
+
+@media (max-width: 991px){
+  body{
+    /* background-image: url('/wallpaperflare.com_wallpaper\ \(3\).jpg') !important;
+    background-size:100% 100vh !important; */
+    /* background-repeat: no-repeat; */
+    /* background-position-y: 300px !important;
+    background-position-x: -300px !important; */
+    /* background-position: center; */
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family: 'Bai Jamjuree', sans-serif !important;
+
+}
+img {
+  width: 100%;
+  pointer-events: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: #222431;
+}
+
+/* Snow */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+main {
+  font-size: 3rem;
+  display: flex;
+  grid-template-columns: 30% 70%;
+  place-items: center;
+  background: #f6f6f6;
+  height: min(100%, 95%);
+  width: min(1000px, 95%);
+  border-radius: 30px;
+  justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h1Head{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bolder;
+}
+button{
+  width: 800px !important;
+  height: 150px !important;
+
+}
+
+main img {
+  border-radius: 18px 0 0 18px;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.navbar{
+  z-index: 1;
+}
+nav .a{
+  font-size: 1.8rem !important;
+  text-align: center;
+  align-items: center;
+}
+nav a{
+  font-size: 3rem;
+  text-align: center;
+  align-items: center;
+}
+nav p{
+  font-size: 2rem;
+  text-align: center;
+  align-items: center;
+}
+nav span{
+  font-size: 2.3rem !important;
+  text-align: center;
+  align-items: center;
+}
+nav button{
+  font-size: 0.5rem !important;
+
+  margin-top: 20px;
+    align-items: center;
+}
+.Outer h1 {
+    font-size: 5rem !important;
+    color: black;
+    margin-bottom: 6rem;
+}
+.Outer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+    text-align: center !important;
+    border-radius: 20px !important;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.9), 0 5px 5px 0 rgba(0, 0, 0, 0.24) !important;
+    margin: 10vh 0 0 0 !important;
+    font-size: 3.3rem !important;
+    background-color: white !important;
+    width: 890px !important;
+    height: 64% !important;
+    padding: 30px !important;
+    opacity: 90% !important;
+}
+.FB{
+  position:static;
+}
+.FB .raise{
+  width: 600px;
+}
+.SB{
+  position: static;
+}
+.SB .raise{
+  width: 600px;
+}
+.TB{
+  position: static;
+}
+.TB .raise{
+  width: 600px;
+}
+.Outer form{
+    line-height: 280px !important;
+}
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.raise {
+  --color: #000000;
+  --hover: #28ae3c;
+}
+  
+  button {
+    color: var(--color) !important;
+    transition: 0.25s !important;
+  }
+  button:hover, button:focus {
+    border-color: var(--hover) !important;
+    color: #000000 !important;
+  }
+  
+   button {
+    background: none !important;
+    border: 5px solid !important;
+    font: inherit !important;
+    line-height: 50px !important;
+    margin: 0.5em !important;
+    padding: 1em 1em !important;
+    border-radius:70px 1px !important;
+    font-weight: bolder !important;
+}
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 40vh;
+  border-radius: 30px;
+}
+  code {
+    color: #e4cb58 !important;
+    font: inherit !important;
+  }
+  .navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    margin-right: 0%;
+}
+    
+}
+
+
+
