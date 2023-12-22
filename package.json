@@ -26,7 +26,8 @@
   "version": "1.0.0",
   "main": "passport-config.js",
   "devDependencies": {
-    "webpack": "^5.89.0"
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
   },
   "repository": {
     "type": "git",
